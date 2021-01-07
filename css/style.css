@@ -381,7 +381,7 @@ ol {
 
 .header__right__social a {
 	display: inline-block;
-	font-size: 16px;
+	font-size: 22px;
 	color: #ffffff;
 	margin-right: 16px;
 }
@@ -1099,7 +1099,7 @@ ol {
 }
 
 .footer__social .footer__social__links a {
-	font-size: 18px;
+	font-size: 22px;
 	color: #5c00ce;
 	height: 50px;
 	width: 50px;
