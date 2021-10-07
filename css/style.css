@@ -556,7 +556,7 @@ Subscription section
 
 .sub-list {
 	list-style: none;
-	background: #1c294a;
+	background: #353535;
 	padding: 70px 15px 50px 155px;
 	border-radius: 42px;
 }
@@ -1468,7 +1468,7 @@ Responsive
 		margin-top: -60px;
 	}
 	.slicknav_nav {
-		background: #1c294a;
+		background: #353535;
 		margin-bottom: 35px;
 	}
 	.slicknav_nav ul {
@@ -1487,7 +1487,7 @@ Responsive
 	.slicknav_btn {
 		position: relative;
 		top: -24px;
-		background: #1c294a;
+		background: #353535;
 	}
 	.main-menu {
 		display: none;
@@ -1604,7 +1604,7 @@ Responsive
 		margin-top: -60px;
 	}
 	.slicknav_nav {
-		background: #1c294a;
+		background: #353535;
 		margin-bottom: 35px;
 	}
 	.slicknav_nav ul {
@@ -1623,7 +1623,7 @@ Responsive
 	.slicknav_btn {
 		position: relative;
 		top: -24px;
-		background: #1c294a;
+		background: #353535;
 	}
 	.main-menu {
 		display: none;
