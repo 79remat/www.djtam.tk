@@ -17,7 +17,7 @@ body {
 	height: 100%;
 	font-family: "Montserrat", sans-serif;
 	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
+	font-smooth: antialiased;
 }
 
 h1,
@@ -287,7 +287,7 @@ Header section
 	font-size: 16px;
 	color: #ffffff;
 	padding: 44px 10px;
-	margin-left: 60px;
+	margin-left: 15px;
 }
 
 .main-menu li a:hover {
