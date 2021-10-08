@@ -46,15 +46,7 @@
 			margin-left:20px;
 		}
 
-		@media only screen and (max-width:749px) {
-			#weddings {
-				background-image: url("img/uploads/bride32.jpg");
-				background-size: contain;
-				background-repeat: no-repeat;
-				background-position: top;
-				width:100%;
-			  }
-			}
+		
 	#weddings {
 		background-image: url("img/uploads/weddings3.jpg");
 
@@ -67,7 +59,15 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-	
+	@media only screen and (max-width:749px) {
+			#weddings {
+				background-image: url("img/uploads/bride32.jpg");
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position: top;
+				background-attachment:fixed;
+			  }
+			}
 </style>
 </head>
 <body>
