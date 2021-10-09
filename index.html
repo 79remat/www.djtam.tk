@@ -259,7 +259,7 @@
 				
 			</div>
 			
-			<div class="row">
+			<div class="row testimonials">
 				<div class="col-lg-4 col-sm-6">
 					<div class="premium-item">
 						<img class="reviews" src="img/uploads/review1.jpg" alt="DJ Tam">
@@ -433,9 +433,12 @@
 			$("#showLess").on("click", function(r){
 					r.preventDefault();
 					
-					$(".testimonials").css("display" , "none");
-					$("#loadMore").show();
-					$("#showLess").hide();
+					$(".testimonials:visible").slice(-1).slideUp();
+					
+					if($(".testimonials:visible").length == 2) {
+						$("#loadMore").show();
+						$("#showLess").hide();
+					}
 			});
 		})
 	</script>
