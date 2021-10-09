@@ -69,6 +69,28 @@
 			  }
 			}
 
+
+			#lighting {
+		/* Set a specific height */
+		min-height: 500px;
+		
+		/* Create the parallax scrolling effect */
+		background-attachment:fixed;
+		background-position: top;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	
+	@media only screen and (max-width:749px) {
+			#lighting {
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-attachment:fixed;
+			  }
+			}
+
+
+
 </style>
 </head>
 <body>
@@ -133,7 +155,7 @@
 	<!-- Intro section end -->
 
 	<!-- How section -->
-	<section class="how-section spad set-bg" style="background-size: cover;" data-setbg="img/uploads/lighting-blur2.png">
+	<section class="how-section spad set-bg" id="lighting" data-setbg="img/uploads/lighting-blur2.png">
 		<div class="container text-white">
 			<div class="section-title">
 				<h2>The Process</h2>
